@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:2:5-36
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:1-30:12
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:3:1-64
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:3:18-61
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:4:1-61
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:4:18-59
+application
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:6:1-28:15
+	android:supportsRtl
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:11:1-27
+	android:label
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:9:1-33
+	android:roundIcon
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:10:1-46
+	android:icon
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:8:1-35
+	android:allowBackup
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:7:1-27
+	android:theme
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:12:1-32
+activity#com.cookandroid.alarm.MainActivity
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:13:1-21:12
+	android:theme
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:15:5-55
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:14:5-33
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:16:5-20:21
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:17:9-61
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:17:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:19:9-69
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:19:19-66
+receiver#com.cookandroid.alarm.Alarm_Receiver
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:23:1-27:12
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:23:11-41
+intent-filter#action:name:.com.cookandroid.alarm.ALARM_START
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:24:5-26:21
+action#com.cookandroid.alarm.com.cookandroid.alarm.ALARM_START
+ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:25:9-69
+	android:name
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml:25:17-66
+uses-sdk
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		ADDED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\user\AndroidStudioProjects\health\alarm\src\main\AndroidManifest.xml
