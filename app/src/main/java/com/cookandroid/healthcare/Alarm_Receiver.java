@@ -21,7 +21,6 @@ import static android.content.Context.POWER_SERVICE;
 public class Alarm_Receiver extends BroadcastReceiver {
     Context context;
     PowerManager powerManager;
-
     PowerManager.WakeLock wakeLock;
 
     @Override

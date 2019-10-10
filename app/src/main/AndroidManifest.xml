@@ -35,6 +35,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name=".Alarm_Receiver">
+            <intent-filter>
+                <action android:name=".com.cookandroid.healthcare.ALARM_START" />
+            </intent-filter>
+        </receiver>
+        <service  android:name="com.cookandroid.healthcare.sensor_foreground">
+        </service>
+        <receiver android:name=".sensor_receiver">
+            <intent-filter>
+                <action android:name="ACTION.RESTART.sensor_foreground" />
+                <action android:name=".com.cookandroid.healthcare.ALARM_START" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

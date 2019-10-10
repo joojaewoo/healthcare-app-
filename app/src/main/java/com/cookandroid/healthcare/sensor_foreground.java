@@ -40,13 +40,12 @@ public class sensor_foreground extends Service implements SensorEventListener {
     }
     @Override
     public void onCreate() {
-        unregisterRestartAlarm();
         super.onCreate();
+        unregisterRestartAlarm();
         db = new sensorDB(getApplicationContext(), "STEP.db", null, 1);
         sensorM = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         sensorC = sensorM.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         sensorM.registerListener(this, sensorC, sensorM.SENSOR_DELAY_NORMAL);
-
     }
     @Override
     public int onStartCommand(Intent intent,int flag,int start_id) {
@@ -93,9 +92,8 @@ public class sensor_foreground extends Service implements SensorEventListener {
     private void unregisterRestartAlarm(){
 
         Intent intent = new Intent(sensor_foreground.this,sensor_receiver.class);
-        intent.setAction("ACTION.RESTART.foreground");
+        intent.setAction("ACTION.RESTART.sensor_foreground");
         PendingIntent sender = PendingIntent.getBroadcast(sensor_foreground.this,0,intent,0);
-
         AlarmManager alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
 
         /**

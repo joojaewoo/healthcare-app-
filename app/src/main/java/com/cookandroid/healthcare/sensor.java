@@ -9,7 +9,6 @@ import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.Bundle;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
@@ -52,7 +51,7 @@ public class sensor extends AppCompatActivity  {
         pendingIntent = PendingIntent.getBroadcast(sensor.this, 1, my_intent, PendingIntent.FLAG_UPDATE_CURRENT);
         a=new sensor_receiver();
         Intent intent=new Intent(sensor.this,sensor_foreground.class);
-        IntentFilter intentFilter=new IntentFilter("com.cookandroid.sensor.foreground");
+        IntentFilter intentFilter=new IntentFilter("package com.cookandroid.healthcare.sensor_foreground");
         registerReceiver(a,intentFilter);
         startForegroundService(intent);
     }
