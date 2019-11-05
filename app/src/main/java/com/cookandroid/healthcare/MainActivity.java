@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"운동 추천",Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(MainActivity.this,exercise.class);
+                startActivity(intent);
             }
         });
     }
