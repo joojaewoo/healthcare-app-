@@ -21,20 +21,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".exercise"></activity>
-
+        <activity android:name=".map" ></activity>
         <uses-library android:name="com.google.android.maps" />
-
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBm5mkLuvp4dkvZoSAo711358MSinBnRns" />
-
-        <activity android:name=".map" />
         <activity android:name=".sensor" />
         <activity android:name=".alarm" />
-        <activity android:name=".exercise" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
