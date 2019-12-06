@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="my_array">
-        <item>운동1</item>
-        <item>운동2</item>
-        <item>운동3</item>
-        <item>운동4</item>
+        <item>팔굽혀펴기</item>
+        <item>런지</item>
+        <item>크런치</item>
+        <item>와이드스쿼트</item>
     </string-array>
 </resources>
